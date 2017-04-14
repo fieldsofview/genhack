@@ -1,37 +1,33 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/fieldsofview/genhack/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Notes from discussion at Bengaluru Editors Lab
+## **Hacking against gender inequality**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Main questions for the project
+1. How to make Gender budgeting more visible and accessible to [Financial, Gender and Data] journalists?
+2. How to report using Gender Budgeting data.
+3. How GBS data connects to implementation of programs.
+4. How to translate central Gender Budget data into regional sources.
 
-### Markdown
+### Future
+1. Accountability in terms of how the budget is delivered.
+2. Gender budget is spent more responsibly.
+3. All ministries put our gender budgets.
+4. Planning takes into account disaggregated beneficiaries.
+5. Drill down on how gender budget is allocated on the ground.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Pictures from discussion
 
-```markdown
-Syntax highlighted code block
+1. ![Image](doc/IMG_20170414_135332696.jpg)
 
-# Header 1
-## Header 2
-### Header 3
+## Standard Terms
+* _Gender Budget Cells_: Institutional mechanism to facilitate in the integration of gender analysis into the government budget. 57 ministries and departments have set up cells. At the central level has officers from Plan, Policy, Coordination, Budget and Accounts Division of the Ministry/Department concerned.
+* _Gender Budget Statement_: Gender budget statement is a reporting mechanism to review their programmers from a gender lens. Part A has programs with 100% allocation for women. Part B has programs with 30% - 99% allocation for women. Introduced in union budget in 2005-06.
+* _Gender Auditing_: Process conducted after the budget has been implemented, to review financial outlays.
+* _Accountability mechanisms of Government to promote Gender_:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fieldsofview/genhack/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Stakeholders
+1. Ministry of Finance (center and state)
+2. Ministry of women and child development/ Social welfare development.
+3. Comptroller and Auditor General of India / Local Audit departments.
+4. Sectoral ministries like Health, Education, Labour, Agriculture, Power, Roadways, Urban Development, etc.
