@@ -16,7 +16,15 @@
 
 ### Pictures from discussion
 
-1. ![Image](doc/IMG_20170414_135332696.jpg)
+1. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_135332696.jpg)
+2. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_142347704.jpg)
+3. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_142340810.jpg)
+4. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_142350702.jpg)
+
+5. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_142344682.jpg)
+
+6. ![Image](http://fieldsofview.in/genhack/doc/pictures/IMG_20170414_142353866.jpg)
+
 
 ## Standard Terms
 * _Gender Budget Cells_: Institutional mechanism to facilitate in the integration of gender analysis into the government budget. 57 ministries and departments have set up cells. At the central level has officers from Plan, Policy, Coordination, Budget and Accounts Division of the Ministry/Department concerned.
@@ -29,3 +37,4 @@
 2. Ministry of women and child development/ Social welfare development.
 3. Comptroller and Auditor General of India / Local Audit departments.
 4. Sectoral ministries like Health, Education, Labour, Agriculture, Power, Roadways, Urban Development, etc.
+5. People's Budget Initiative (NGO).
