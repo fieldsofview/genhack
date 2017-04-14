@@ -1,7 +1,5 @@
-## Welcome to GitHub Pages
-
-# Notes from discussion at Bengaluru Editors Lab
-## **Hacking against gender inequality**
+## Notes from discussion at Bengaluru Editors Lab
+### **Hacking against gender inequality**
 
 ## Main questions for the project
 1. How to make Gender budgeting more visible and accessible to [Financial, Gender and Data] journalists?
