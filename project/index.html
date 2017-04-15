@@ -71,6 +71,68 @@
         //     if (error) return console.warn(error);
         //     places = json
         // });
+        // var adopt = d3.json("adoptions.json", function(error, json) {
+        //     if (error) return console.warn(error);
+        //     adopt = json;
+        // });
+        var adopt =
+        [{
+	"name": "Odisha",
+	"year": 2004
+}, {
+	"name": "Tripura",
+	"year": 2005
+}, {
+	"name": "Uttar Pradesh",
+	"year": 2005
+}, {
+	"name": "Karnataka",
+	"year": 2006
+}, {
+	"name": "Gujarat",
+	"year": 2006
+}, {
+	"name": "Madhya Pradesh",
+	"year": 2007
+}, {
+	"name": "Jammu & Kashmir",
+	"year": 2007
+}, {
+	"name": "Arunachal Pradesh",
+	"year": 2007
+}, {
+	"name": "Chhattisgarh",
+	"year": 2007
+}, {
+	"name": "Uttarakhand",
+	"year": 2007
+}, {
+	"name": "Himachal Pradesh",
+	"year": 2008
+}, {
+	"name": "Bihar",
+	"year": 2008
+}, {
+	"name": "Kerala",
+	"year": 2008
+}, {
+	"name": "Nagaland",
+	"year": 2009
+}, {
+	"name": "Dadra and Nagar Haveli",
+	"year": 2011
+}, {
+	"name": "Rajasthan",
+	"year": 2011
+}, {
+	"name": "Andaman & Nicobar Islands",
+	"year": 2012
+}, {
+	"name": "Maharashtra",
+	"year": 2013
+}]
+
+
         var width = 1024,
             height = 968;
         var color = d3.scale.ordinal()
@@ -90,24 +152,21 @@
             .attr("viewBox", "0 0 900 800")
             .attr("preserveAspectRatio", "xMidYMid meet");
 
+
         var data;
         d3.json("states.json", function(error, swiss) {
             if (error) throw error;
 
             svg.selectAll(".pin")
-                .data(adoptions)
+                .data(adopt)
                 .enter().append("circle", ".pin")
                 .attr("r", 10)
-                .attr("transform", function(d) {
-                    return "translate(" + projection([
-                        d.location.longitude,
-                        d.location.latitude
-                    ]) + ")";
-                })
-            var adoptions = d3.json("adoptions.json", function(error, json) {
-                if (error) return console.warn(error);
-                adoptions = json
-            });
+                // .attr("transform", function(d) {
+                //     return "translate(" + projection([
+                //         d.location.longitude,
+                //         d.location.latitude
+                //     ]) + ")";
+                // })
 
             var tip = d3.tip()
                 .attr('class', 'd3-tip')
@@ -115,7 +174,17 @@
                 .style("left", "300px")
                 .style("top", "400px")
                 .html(function(d) {
-                  console.log(d.objects.india.geometries.properties.NAME_1);
+                  // console.log(adopt[0]);
+                  for(count = 0; count < 18; count++){
+                    if(d.properties.NAME_1 == adopt[count].name)
+                    {
+                    // console.log(d.properties.NAME_1)
+                    // console.log(adopt[count].name)
+                    // console.log(adopt[count].year)
+                    return(adopt[count].year)
+                  }
+                  }
+                  //return(adopt["values.name." + d.properties.NAME_1])
                     // return ("<a href=" + d.nam + " target='_blank'>" + d.name + "</a>");
                 })
 
